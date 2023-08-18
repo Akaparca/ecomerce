@@ -410,6 +410,17 @@ button {
   bottom: 345px;
   font-size: 26px;
 }
+@media screen and (min-width: 768px) {
+  .container__gallery {
+    width: 200%;
+  }
+  .gallery .card {
+    width: calc(100% / 2);
+  }
+  #pd {
+    display: none;
+  }
+}
 /* Products  */
 .main {
   padding-top: 40px;
